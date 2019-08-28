@@ -1,0 +1,77 @@
+<style>
+    body {
+        text-align: center;
+        background-color: rgb(184, 184, 184);
+    }
+
+    @font-face { font-family: oldlondon; src: url('oldlondon.TTF'); }
+    
+    h1 {
+        font-family: oldlondon;
+        font-size: 60px;
+        color: rgb(0, 26, 255);
+    }
+
+    ul {
+        list-style-type: none;
+        font-family: oldlondon;
+    }
+
+    li {
+        list-style-type: none;
+        font-family: oldlondon;
+        font-size: 40px;
+    }
+
+    .first-letter {
+        font-family: oldlondon;
+
+    }
+
+    p {
+        font-family: sans-serif;
+    }
+
+    .topnav {
+
+    }
+
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-align: justified;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: rgba(165, 42, 42, 0.815);}
+
+ul.topnav li.right {float: right;}
+
+ul.div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul {
+    font-family: sans-serif;
+}
+</style>
